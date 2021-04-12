@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Site</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/logo.png" alt="logo goes here">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <img class="search" src="assets/icon-search.png" alt="search goes here">
+
+            <label for="nav-toggle" class="nav-toggle-label"><!--this is so the checkbox connects to it, to its id-->
+          <span></span>
+        </label>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <a href="#">Signup</a>
+            <a href="#">Login</a>
+            <a href="#">EN</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-one">
+                <h1>Experience <br>The World</h1>
+                <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantimum doloremque laudantium, totam rem aperiam eqaue</p>
+                <button class="button-explore">Explore All</button>
+                <button class="button-story">Watch Story</button>
+            </div>
+            <div class="hero-two">
+                <div>
+                    <h3>Best Travel guide!</h3>
+                    <p>The Communication was super easy and quick and the place looks exactly like it does on the picture. The neighbourhood is very</p>
+                </div>
+                <div class="hero-two-profile">
+                    <img src="assets/jamie.png" alt="jamie goes here">
+                    <div>
+                        <h3>Jamie Diaz</h3>
+                        <p>Serbia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="row">
+                <h1>Explore</h1>
+                <p id="subheading">Most Popular Destinations</p>
+                <p>The a look at the est Places to Travel in 2019 for additional inspiration and if you already know where you're going this coming year, share your plans with us on social media with #TLBestPlace, this link opens in a new tab.
+                </p>
+                <button>Explore All</button>
+            </div>
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="mySlides fade">
+                    <img src="assets/novisad.png">
+                    <div class="text" style="text-align: center;">Novi Sad, Serbia</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="assets/amtsterdam.png">
+                    <div class="text" style="text-align: center;">Amsterdam, Netherlands</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="assets/bahamas.png">
+                    <div class="text" style="text-align: center;">Bahamas</div>
+                </div>
+
+
+                <!-- Next and previous buttons -->
+
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="tickets">
+        <h1>Available Summer Tours</h1>
+        <div class="tickets-container">
+            <div class="tickets-row">
+                <img src="assets/icon-bus.png" alt="bus">
+                <h3>City Hiking Tour (3 hours)</h3>
+                <p>Get onboard one of our Round City Cable Tour</p>
+                <div class="under-dots">
+                    <p>$ 45.00</p>
+                    <button>Book</button>
+                </div>
+            </div>
+            <div class="tickets-row">
+                <img src="assets/003-tourist.png" alt="bus">
+                <h3>City Hiking Tour (3 hours)</h3>
+                <p>Get onboard one of our Round City Cable Tour</p>
+                <div class="under-dots">
+                    <p>$ 45.00</p>
+                    <button>Book</button>
+                </div>
+            </div>
+            <div class="tickets-row">
+                <img src="assets/004-map.png" alt="bus">
+                <h3>City Hiking Tour (3 hours)</h3>
+                <p>Get onboard one of our Round City Cable Tour</p>
+                <div class="under-dots">
+                    <p>$ 45.00</p>
+                    <button>Book</button>
+                </div>
+            </div>
+            <div class="tickets-row">
+                <img src="assets/icon cable.png" alt="bus">
+                <h3>City Hiking Tour (3 hours)</h3>
+                <p>Get onboard one of our Round City Cable Tour</p>
+                <div class="under-dots">
+                    <p>$ 45.00</p>
+                    <button>Book</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="people">
+            <img src="assets/people-vector.png" alt="people">
+        </div>
+
+
+
+    </section>
+
+
+    <section class="accordion">
+
+        <div class="accordion-container">
+
+            <h1 class="accordion-row-one">Travelling is Easy</h1>
+            <div class="accordion-parent">
+                <div class="accordion-row-two">
+                    <h1>All Services in One Round</h1>
+                    <p style="font-weight: bold;">Travel on Beaches</p>
+                    <p style="text-indent: 10px; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed sem id justo hendrerit varius. Nulla nec ante diam. Aenean ligula elit, rutrum vitae est nec, imperdiet vestibulum lacus. Nulla commodo sodales euismod. Ut sed elementum
+                        diam. Suspendisse potenti. Etiam sed augue et urna imperdiet tincidunt. Curabitur imperdiet enim luctus turpis fringilla viverra. Phasellus dictum et dolor sit amet ornare. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Donec ultrices ante ipsum, id ornare turpis pharetra ac.</p>
+                    <button>Read More</button>
+
+
+                </div>
+                <div class="accordion-row-three">
+                    <h1>Discover Popular Places</h1>
+                    <button id="acc-button1" class="accordion-button">TURKEY <img src="assets/arrow-down.png" alt="arrowdown"></button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+
+                    <button id="acc-button2" class="accordion-button">RUSSIA <img src="assets/arrow-down.png" alt="arrowdown"></button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+
+                    <button id="acc-button3" class="accordion-button">BRAZIL <img src="assets/arrow-down.png" alt="arrowdown"></button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <button id="acc-button4" class="accordion-button">CHINA <img src="assets/arrow-down.png" alt="arrowdown"></button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <button id="acc-button5" class="accordion-button">THAILAND <img src="assets/arrow-down.png" alt="arrowdown"></button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="heading">
+
+        <h1>I am page heading</h1>
+        <p>Duis vel euismod arcu. Etiam vestibulum leo ipsum, nec lacinia nunc lobortis posuere. Nam luctus lorem at nibh porta, quis fermentum lacus porta. Nam dictum dapibus convallis. Suspendisse vitae porta arcu, non cursus lectus. Duis sollicitudin
+            vestibulum egestas. Praesent pharetra congue quam sed sodales. Proin in bibendum purus. Aenean blandit purus a hendrerit tincidunt. Check it here. </p>
+        <ul>
+            <li>
+                <p>Duis vel euismod arcu. Etiam vestibulum leo ipsum, nec lacinia nunc lobortis posuere. Nam luctus lorem at nibh porta, quis </p>
+            </li>
+            <li>
+                <p>In ac sodales odio, ac viverra ante. Nunc massa felis, blandit fringilla risus eget, feugiat vulputate nulla. Duis sollicitudin dictum velit sit amet sodales. Mauris in sapien vitae risus maxi</p>
+            </li>
+            <li>
+                <p>Duis vel euismod arcu</p>
+            </li>
+
+        </ul>
+        <h3>I am page subheading</h3>
+        <p>Duis vel euismod arcu. Etiam vestibulum leo ipsum, nec lacinia nunc lobortis posuere. Nam luctus lorem at nibh porta, quis fermentum lacus porta. </p>
+        <p>Nam dictum dapibus convallis. Suspendisse vitae porta arcu, non cursus lectus. Duis sollicitudin vestibulum egestas. Praesent pharetra congue quam sed sodales. Proin in bibendum purus. Aenean blandit purus a hendrerit tincidunt. Check it here.</p>
+    </section>
+
+    <section class="form">
+        <h1>Contact Us</h1>
+
+        <div class="form-people">
+            <img src="assets/tabletgirl.png" alt="tabletgirl">
+            <img src="assets/readingguys.png" alt="readinguy">
+
+        </div>
+        <div class="form-container">
+            <form>
+
+                <label class="form__label" for="fname">Full Name</label>
+                <input class="form__text" type="text" id="fname" name="firstname" placeholder="John Doerr">
+
+                <label class="form__label" for="lname">E-mail</label>
+                <input class="form__text" type="text" id="lname" name="lastname" placeholder="jhondoerr@google.com">
+
+                <label class="form__label" for="subject">Message</label>
+                <textarea class="form__text" id="subject" name="subject" placeholder="Your message" style="height:100px"></textarea>
+                <label>
+                    <input  type="checkbox" checked="checked" name="subscribe"> I agree to the <strong>Terms, Privacy Policy</strong> and <strong>Fees</strong>
+                  </label>
+                <input class="form__button" type="submit" value="Send message">
+
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <section class="pre-footer">
+        <div class="pre-footer-container ">
+            <div class="pre-footer-row ">
+                <img src="assets/logo.png " alt="logo ">
+                <ul>
+                    <li>Industry level travel app</li>
+                    <li>Aliquam viverra non risus eget auctor.<br> Praesent tincidunt nunc quis tellus conque.
+                    </li>
+                    <li>Made in Novi Sad, <br> Serbia, SRB</li>
+                </ul>
+            </div>
+            <div class="pre-footer-row ">
+                <h1>FEATURES</h1>
+                <ul>
+                    <li>Analytics</li>
+                    <li>Activity
+                    </li>
+                    <li>Content management</li>
+                    <li>Publishing</li>
+                </ul>
+            </div>
+            <div class="pre-footer-row ">
+                <h1>ABOUT</h1>
+                <ul>
+                    <li>Blog</li>
+                    <li>Pricing
+                    </li>
+                    <li>FAQ</li>
+                    <li>Product Changes</li>
+                </ul>
+            </div>
+            <div class="pre-footer-row ">
+                <h1>FREE TOOLS</h1>
+                <ul>
+                    <li>Instagram Aduit</li>
+                    <li>Instagram Brands Index
+                    </li>
+                    <li>Instaram Influencer Index</li>
+
+                </ul>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer ">
+        <div class="footer-container ">
+            <div class="footer-img ">
+                <img src="assets/twitter.png " alt="twitter ">
+                <img src="assets/insta.png " alt="insta ">
+                <img src="assets/facebook.png " alt="facebook ">
+            </div>
+
+            <p>&#169;Company Name All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
+    <script src="carousel.js "></script>
+    <script src="accordion.js "></script>
+</body>
+
+</html>
